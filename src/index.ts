@@ -19,7 +19,7 @@ client.on("ready", () => {
       if (channell.isTextBased()) {
         channell.send({
           content: `${new Date()}`,
-          files: ["./src/sql/zumbilandia.sql"],
+          files: ["./src/sql/sql.sql"],
         });
       }
     }, ms("10s"));
