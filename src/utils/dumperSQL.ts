@@ -9,7 +9,7 @@ export function SqlDumper() {
         password: process.env.DB_PASSWORD,
         database: process.env.DB_NAME,
       },
-      dumpToFile: `./src/sql/zumbilandia.sql`,
+      dumpToFile: `./src/sql/sql.sql`,
     });
   } catch (err) {
     console.log(err);
