@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { Client, Attachment } from "discord.js";
+import { Client } from "discord.js";
 import ms from "ms";
 
 const client = new Client({ intents: 32767 });
